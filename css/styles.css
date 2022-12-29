@@ -154,3 +154,9 @@ height: 20px;
   height: 128px;
   border-radius: 8px;
 }
+
+/* hero styles */
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+}
