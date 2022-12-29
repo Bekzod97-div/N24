@@ -124,3 +124,26 @@ height: 20px;
 .main-link:hover {
   opacity: 0.6;
 }
+/* Main page styles */
+/* navbar-styles */
+.nav-list {
+  padding-bottom: 20px;
+  display: flex;
+  align-items:center;
+  list-style-type: none;
+  border-bottom: 1px solid #d1d1d1;
+}
+.nav-item:not(:last-child) {
+  margin-right: 34px;
+}
+.nav-item > a {
+  color: #7f7f7f;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
