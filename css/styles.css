@@ -132,6 +132,7 @@ height: 20px;
   align-items:center;
   list-style-type: none;
   border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 40px;
 }
 .nav-item:not(:last-child) {
   margin-right: 34px;
@@ -146,4 +147,10 @@ height: 20px;
 }
 .nav-item:hover {
   text-decoration: underline;
+}
+/* hero image styles */
+.bilboard {
+  width: 1200px;
+  height: 128px;
+  border-radius: 8px;
 }
