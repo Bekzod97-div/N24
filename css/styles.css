@@ -329,3 +329,13 @@ margin-bottom: 10px;
 
 }
 /* world-news-main-link styles */
+.world-news-main-link {
+  display: block;
+  background-color: #eaeaea;
+  padding: 17px 343px;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000;
+  text-decoration: none;
+}
