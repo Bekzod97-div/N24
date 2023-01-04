@@ -26,7 +26,6 @@ margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
-  align-items:center;
 }
 /* heading-wraper styles */
 .heading-wraper {
@@ -352,9 +351,6 @@ text-decoration: none;
   margin-right: 10px;
 }
  /* Section main styles */
- .list-section-main {
-  margin-top: -663px;
- }
  .section-main {
   background-color: #f6f6f6;
   border-radius: 15px;
@@ -363,7 +359,7 @@ text-decoration: none;
   padding-left: 17px;
   padding-right: 17px;
   margin-bottom: 10px;
-  margin-top: -9px;
+  margin-top: 47px;
  }
 
  .section-main-heading {
