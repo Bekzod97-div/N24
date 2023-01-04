@@ -54,26 +54,26 @@
           </ul>
         </navbar>
       </div>
-
+      <!-- Article part of the site -->
       <div class="container">
-        <section>
-          <div class="article">
-            <img src="img/solenka.jpg" alt="fbm logo" width="30" height="30">
-            <p>FBM.ru 22:23</p>
-            <h3>Илон Маск принял участие во Всемирной сетевой конференции в Китае</h3>
-            <img src="img/Rectangle 91.jpg" alt="tesla cars"  srcset="img/Rectangle 91.jpg 1x, img/Rectangle 91@2x.jpg 2x" width="797" height="300">
-            <p>Илон Маск (Elon Musk, Руководитель фирмы Tesla и других проектов) уже второй раз за полторы недели обратился к китайским правящим кругам и гражданам. В видеоролике он уверил их в своей готовности инвестировать средства в развитие и расширять бизнес на территории этой страны. Особое внимание будет уделяться небезопасности обрабатываемых данных. </p>
-            <p>Они будут храниться только в самом Китае и поэтому будут доступны правительству Поднебесной в любой момент.</p>
-            <p>Новые заявления Илон Маск сделал во время видеообращения к аудитории мероприятия World Internet Conference, которое прошло в конце недели в Поднебесной. Компанию ему составили руководители Cisco Systems (Чак Роббинс), Intel (Пэт Гелсингер) и Qualcomm (Кристиано Амон), а интересы бизнеса Китайской Народной Республики представляли руководители Alibaba и Xiaomi. </p>
-            <p>Открывал мероприятие Лю Хэ (Liu He, Вице-премьер Госсовета КНР), который привёл слова Си Цзиньпина (Xi Jinping) о стремлении Поднебесной работать со всеми державами над созданием прозрачной цифровой экономики.</p>
-            <p>В ближайшее время Tesla собирается не только сделать шире объёмы производства автомобилей на электрической тяге в шанхайском филиале, но и разработать силами местной студии недорогую модель электрического автомобиля (стоимостью менее 25 000 долларов).</p>
-            <p> Уже в настоящий момент собранные в Китайской Народной Республике электрокары Tesla Model Y и Model 3 поставляются на экспорт в Европу.</p>
-          </div>
+        <section class="article">
+           <div class="article-header">
+              <img src="img/solenka.jpg" alt="fbm logo" width="30" height="30">
+              <p>FBM.ru 22:23</p>
+            </div>
+            <h3 class="article-heading">Илон Маск принял участие во Всемирной сетевой <br> конференции в Китае</h3>
+            <img class="article-img" src="img/Rectangle 91.jpg" alt="tesla cars"  srcset="img/Rectangle 91.jpg 1x, img/Rectangle 91@2x.jpg 2x" width="797" height="300">
+            <p class="article-text">Илон Маск (Elon Musk, Руководитель фирмы Tesla и других проектов) уже второй раз за полторы недели обратился к китайским правящим кругам и гражданам. В видеоролике он уверил их в своей готовности инвестировать средства в развитие и расширять бизнес на территории этой страны. Особое внимание будет уделяться небезопасности обрабатываемых данных. </p>
+            <p class="article-text">Они будут храниться только в самом Китае и поэтому будут доступны правительству Поднебесной в любой момент.</p>
+            <p class="article-text">Новые заявления Илон Маск сделал во время видеообращения к аудитории мероприятия World Internet Conference, которое прошло в конце недели в Поднебесной. Компанию ему составили руководители Cisco Systems (Чак Роббинс), Intel (Пэт Гелсингер) и Qualcomm (Кристиано Амон), а интересы бизнеса Китайской Народной Республики представляли руководители Alibaba и Xiaomi. </p>
+            <p class="article-text">Открывал мероприятие Лю Хэ (Liu He, Вице-премьер Госсовета КНР), который привёл слова Си Цзиньпина (Xi Jinping) о стремлении Поднебесной работать со всеми державами над созданием прозрачной цифровой экономики.</p>
+            <p class="article-text">В ближайшее время Tesla собирается не только сделать шире объёмы производства автомобилей на электрической тяге в шанхайском филиале, но и разработать силами местной студии недорогую модель электрического автомобиля (стоимостью менее 25 000 долларов).</p>
+            <p class="article-text"> Уже в настоящий момент собранные в Китайской Народной Республике электрокары Tesla Model Y и Model 3 поставляются на экспорт в Европу.</p>
         </section>
 
         <!-- Section main -->
     <section class="main-card">
-      <div class="section-main">
+      <div class="section-main article-top">
         <h3 class=" heading-world-news section-main-heading">Главное</h3>
         <ul class="section-main-list">
           <li class="section-main-item">
@@ -97,26 +97,34 @@
       <img class="section-main-img" src="img/image 6.jpg" alt="advertisment bilboard" srcset="img/image 6.jpg 1x, img/image 6@2x.jpg 2x" width="393" height="324">
     </section>
       </div>
-      <div class="container">
-        <h2>По вашим интересам</h2>
-        <ul>
-          <li>
-            <a href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
-            <p>Во время презентации iPhone 13 Apple придала большое значения...</p>
-            <img src="img/5-4.jpg" alt="digger logo" width="20" height="20">
-            <p>Digger.ru 14:25</p>
+
+      <div class="container random-cards-container">
+                            <!-- random-cards -->
+        <h2 class="random-cards-heading">По вашим интересам</h2>
+        <ul class="random-cards-list">
+          <li class="world-news-item random-cards-item">
+            <a class="card-heading" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+            <p class="card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            <div class="source-world-news">
+              <img src="img/5-4.jpg" alt="digger logo" width="20" height="20">
+              <p>Digger.ru 14:25</p>
+            </div>
           </li>
-          <li>
-            <a href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
-            <p>Во время презентации iPhone 13 Apple придала большое значение...</p>
-            <img src="img/image 5-2.jpg" alt="lenta logo" width="20" height="20">
-            <p>Lenta.ru 10:54</p>
+          <li class="world-news-item random-cards-item">
+            <a class="card-heading" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+            <p class="card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+            <div class="source-world-news">
+              <img src="img/image 5-2.jpg" alt="lenta logo" width="20" height="20">
+              <p>Lenta.ru 10:54</p>
+            </div>
           </li>
-          <li>
-            <a href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
-            <p>Две модели китайского бренда JAC из пяти, представленных на российском...</p>
-            <img src="img/tarantas news.jpg" alt="tarantas logo" width="20" height="20">
-            <p>Тарантас Ньюс 10:44</p>
+          <li class="world-news-item random-cards-item">
+            <a class="card-heading" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в <br> России</a>
+            <p class="card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+            <div class="source-world-news">
+              <img src="img/tarantas news.jpg" alt="tarantas logo" width="20" height="20">
+              <p>Тарантас Ньюс 10:44</p>
+            </div>
           </li>
         </ul>
       </div>
