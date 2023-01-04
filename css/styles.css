@@ -361,6 +361,9 @@ text-decoration: none;
   margin-bottom: 10px;
   margin-top: 47px;
  }
+ .article-top {
+  margin-top: 0;
+ }
 
  .section-main-heading {
   margin-bottom: 25px;
@@ -485,6 +488,76 @@ color: #fff;
 .social-networks-link:not(:last-child) {
   margin-right: 25px;
 }
-svg {
-  color: #4267B2;
+
+/* Article page styles */
+.article {
+  margin-right: 10px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 60px;
+}
+.article-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.article-header > img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.article-header > p {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5e5f61;
+}
+
+/* article heading styles */
+.article-heading {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000;
+  margin-bottom: 20px;
+}
+/* aricle img styles */
+.article-img {
+  width: 797px;
+  height: 300px;
+  border-radius: 13px;
+  margin-bottom: 25px;
+}
+/* article text styles */
+.article-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+.article-text:not(:last-child) {
+  margin-bottom: 24px;
+}
+.article-text:last-child {
+  margin-bottom: 50px;
+}
+/* random-cards styles */
+.random-cards-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.random-cards-container {
+  display: block;
+  margin-bottom: 100px;
+}
+.random-cards-list {
+  display: flex;
+  align-items: center;
+}
+.random-cards-item {
+  display: block;
+  width: 393px;
 }
