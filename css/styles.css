@@ -654,3 +654,51 @@ input[type="email"] {
   margin-top: 20px;
   margin-bottom: 100px;
 }
+
+/* Modal page styles */
+.bg-modal {
+  background-image: url(../img/Home\ 3.jpg);
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+.modal-container {
+  margin-top: 390px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 850px;
+  height: 100%;
+  max-height: 251px;
+  border-radius: 20px;
+}
+.exit-icon {
+  margin-left: 811px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+.modal-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-info > h3 {
+  display: block;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+.modal-heading {
+  margin-bottom: 25px;
+}
+.modal-info > a {
+  display: block;
+  padding: 15px 40px;
+}
