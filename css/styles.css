@@ -70,23 +70,16 @@ margin-right: 25px;
   align-items: center;
 }
 /* search bar styles */
-.search-bar {
-  display: flex;
-  align-items: center;
+  input[type="search"] {
+  border: none;
   border-radius: 60px;
   background-color: #fff;
-  padding-left: 15px;
+  padding-left: 40px;
   padding-top: 13px;
   padding-bottom: 15px;
-  padding-right: 192px;
   margin-right: 25px;
 }
-.search-icon {
-margin-right: 6px;
-width: 20px;
-height: 20px;
-}
-.search-text {
+input[type="search"]::placeholder {
   font-size: 14px;
   line-height: 16px;
   color: #8d8d8d;
