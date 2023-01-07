@@ -27,8 +27,9 @@ body {
 /* Header styles */
 
 .site-header {
-background-color: #f6f6f6;
-margin-bottom: 30px;
+  background-color: #f6f6f6;
+  margin-bottom: 30px;
+  justify-content: space-between;
 }
 /* container styles */
 .container {
@@ -44,7 +45,6 @@ margin-bottom: 30px;
 .heading-wraper {
   display: flex;
   align-items: center;
-  margin-right: 238px;
 }
 .heading {
   background-color: #fff;
@@ -56,12 +56,19 @@ margin-bottom: 30px;
   color: #7296EE;
   margin-right: 35px;
 }
-.header-text {
+/* Currency box styles */
+.currency-box {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.currency-text {
   color: #555;
 }
 .left {
 margin-right: 25px;
 }
+
 .currency-icon {
   font-weight: 500;
   color: #2959CE;
@@ -126,7 +133,6 @@ input[type="search"]::placeholder {
 .main-link:hover {
   opacity: 0.6;
 }
-/* Main page styles */
 /* navbar-styles */
 .nav-list {
   padding-bottom: 20px;
@@ -150,7 +156,7 @@ input[type="search"]::placeholder {
 .nav-item:hover {
   text-decoration: underline;
 }
-/* hero image styles */
+/* site-nav image styles */
 .bilboard {
   width: 1200px;
   height: 128px;
@@ -158,7 +164,7 @@ input[type="search"]::placeholder {
   margin-bottom: 50px;
 
 }
-
+/* Main page styles */
 /* hero styles */
 .hero-content {
   display: flex;

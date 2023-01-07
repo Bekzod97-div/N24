@@ -14,32 +14,31 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-      <!-- site header -->
-<header class="site-header">
-    <div class="container">
-      <div class="heading-wraper">
-        <h1 class="heading">NAMANGANLIKLAR 24</h1>
-        <p class="header-text left"><span class="currency-icon">$</span> 10137.2</p>
-        <p class="header-text right"><span class="currency-icon">P</span> 138.26</p>
+     <!-- site header -->
+<header>
+  <div class="container site-header">
+    <div class="heading-wraper">
+      <h1 class="heading">NAMANGANLIKLAR 24</h1>
+      <div class="currency-box">
+        <p class="currency-text left"><span class="currency-icon">$</span> 10137.2</p>
+        <p class="currency-text right"><span class="currency-icon">P</span> 138.26</p>
       </div>
-      <!-- search bar -->
-        <div class="left-heading-wraper">
-          <div class="search-bar">
-            <img class="search-icon" src="img/Mask (1).svg" alt="search icon" width="20" height="20">
-            <p class="search-text">Поиск</p>
-          </div>
-          <!--Language bar  -->
-          <div class="language-bar">
-            <a class="uz" href="#">УЗ</a>
-            <a class="ru" href="#">РУ</a>
-          </div>
-          <a class="main-link" href="#">Войти</a>
-        </div>
     </div>
-  </header>
+       <div class="left-heading-wraper">
+        <!-- search bar -->
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <input type="search" name="search-input" placeholder="Поиск" aria-label="Поиск" required>
+      </form>
+        <!--Language bar  -->
+        <div class="language-bar">
+          <a class="lang-togler lang-togler-active" href="index.html">УЗ</a>
+          <a class="lang-togler" href="index.html/ru">РУ</a>
+        </div>
+        <a class="main-link" href="#">Войти</a>
+      </div>
+  </div>
 
-  <!-- site navbar -->
-  <div class="container">
+  <div class="container site-nav">
     <navbar>
       <ul class="nav-list">
         <li class="nav-item"><a href="index.html">Главное</a></li>
@@ -55,15 +54,17 @@
       </ul>
     </navbar>
   </div>
+</header>
+
                     <!--Contact form  -->
   <div class="container">
-    <form>
+    <form action="https://echo.htmlacademy.ru" method="get">
         <div class="contact-info">
-            <input class="contact-input top" type="text" id="name" name="name" placeholder="Имя" required>
-            <input class="contact-input top" type="tel" id="phone-number" name="phone-number" placeholder="Номер телефона" required>
+            <input class="contact-input top" type="text" id="name" name="name" placeholder="Имя" aria-label="Имя" required>
+            <input class="contact-input top" type="tel" id="phone-number" name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
         </div>
-        <input class="contact-input" type="email" id="email" name="email" placeholder="Электронная почта" required>
-        <textarea class="contact-input text-area" name="text" id="text" placeholder="Текст"></textarea>
+        <input class="contact-input" type="email" id="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+        <textarea class="contact-input text-area" name="text" id="text" placeholder="Текст" aria-label="Текст" required></textarea>
     </form>
     <ul class="contact-list">
       <li class="contact-item">
