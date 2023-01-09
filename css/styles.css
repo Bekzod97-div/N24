@@ -158,8 +158,11 @@ input[type="search"]::placeholder {
   line-height: 21px;
 
 }
-.nav-item:hover {
-  text-decoration: underline;
+.nav-item > a:hover {
+  color: #7296ec;
+}
+.nav-item > a:active {
+  opacity: 0.6;
 }
 /* site-nav image styles */
 .bilboard {
@@ -171,6 +174,9 @@ input[type="search"]::placeholder {
 
 }
 /* Main page styles */
+.main-content {
+  flex-grow: 1;
+}
 /* hero styles */
 .hero-content {
   display: flex;
@@ -330,11 +336,24 @@ color: #000;
 margin-bottom: 10px;
 text-decoration: none;
 }
+.card-heading-hover:hover {
+  color: #2959ce;
+}
+.card-heading-hover:active {
+  opacity: 0.6;
+}
+
 .card-text {
   display: block;
   color: #4a4b4c;
   text-decoration: none;
   margin-bottom: 20px;
+}
+.card-text:hover {
+  color: #7296ec;
+}
+.card-text:active {
+  opacity: 0.6;
 }
 .source-world-news {
   display: flex;
@@ -354,16 +373,20 @@ text-decoration: none;
 
 }
 /* world-news-main-link styles */
-.world-news-main-link {
-  display: block;
+.world-news-main-btn {
+  display: inline-block;
   background-color: #eaeaea;
   padding: 17px 343px;
+  border: 0;
   border-radius: 10px;
   font-weight: 500;
   line-height: 19px;
   color: #000;
   text-decoration: none;
-  margin-right: 10px;
+  cursor: pointer;
+}
+.world-news-main-btn:hover {
+  opacity: 0.6;
 }
  /* Section main styles */
  .section-main {
@@ -391,6 +414,7 @@ text-decoration: none;
 .section-main-item:not(:last-child) {
   margin-bottom: 20px;
 }
+
  .section-main-link {
   display: block;
   font-weight: 500;
@@ -400,6 +424,13 @@ text-decoration: none;
   text-decoration: none;
   margin-bottom: 8px;
  }
+ .section-main-link:hover {
+  color: #2959ce;
+}
+.section-main-link:active {
+  opacity: 0.6;
+}
+
  .section-main-item > p {
   display: block;
   color: #5E5F61;
@@ -408,14 +439,15 @@ text-decoration: none;
   margin-bottom: 18px;
  }
  .section-main-img {
+  display: flex;
   width: 393px;
   height: 324px;
   border-radius: 15px;
+  object-fit: cover;
  }
  .list-img {
   width: 393px;
   height: 557px;
-  object-fit: cover;
  }
 
  /* Footer styles */
@@ -478,6 +510,13 @@ text-decoration: none;
   line-height: 19px;
   margin-bottom: 20px;
 }
+.footer-links-item > a:hover {
+  color: #2959ce;
+}
+.footer-links-item > a:active {
+  opacity: 0.6;
+}
+
 .bottom-margin {
   margin-bottom: 0;
 }
