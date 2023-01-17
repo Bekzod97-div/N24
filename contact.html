@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namanganliklar24</title>
+    <title> Contact 24</title>
     <!-- Font syles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 <header>
   <div class="container site-header">
     <div class="heading-wraper">
-      <h1 class="heading">NAMANGANLIKLAR 24</h1>
+      <h1 class="heading">Namanganliklar24</h1>
       <div class="currency-box">
         <p class="currency-text left"><span class="currency-icon">$</span> 10137.2</p>
         <p class="currency-text right"><span class="currency-icon">P</span> 138.26</p>
@@ -27,7 +27,7 @@
        <div class="left-heading-wraper">
         <!-- search bar -->
       <form action="https://echo.htmlacademy.ru" method="get">
-        <input type="search" name="search-input" placeholder="Поиск" aria-label="Поиск" required>
+        <input class="search-bar" type="search" name="search-input" placeholder="Поиск" aria-label="Поиск" required>
       </form>
         <!--Language bar  -->
         <div class="language-bar">
@@ -57,34 +57,39 @@
 </header>
 
                     <!--Contact form  -->
-  <div class="container">
-    <form action="https://echo.htmlacademy.ru" method="get">
-        <div class="contact-info">
-            <input class="contact-input top" type="text" id="name" name="name" placeholder="Имя" aria-label="Имя" required>
-            <input class="contact-input top" type="tel" id="phone-number" name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+  <div class="container contact-container">
+    <h1 class="contact-heading">Напишите нам</h1>
+    <div class="contact-content">
+      <div class="form-wrapper">
+        <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+            <div class="contact-info">
+                <input class="contact-input" type="text" id="name" name="name" placeholder="Имя" aria-label="Имя" required>
+                <input class="contact-input" type="tel" id="phone-number" name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+            </div>
+            <input class="contact-input" type="email" id="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+            <textarea class="contact-input text-area" name="text" id="text" placeholder="Текст" aria-label="Текст" required></textarea>
+        </form>
+        <div class="contact-main-link-box">
+          <button class="contact-main-link" type="submit">Отправить</button>
         </div>
-        <input class="contact-input" type="email" id="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
-        <textarea class="contact-input text-area" name="text" id="text" placeholder="Текст" aria-label="Текст" required></textarea>
-    </form>
-    <ul class="contact-list">
-      <li class="contact-item">
-        <h3 class="contact-item-heading">Электронная почта</h3>
-        <a class="contact-item-link" href="info@namanganliklar24.uz">info@namanganliklar24.uz</a>
-      </li>
-      <hr class="line">
-      <li class="contact-item">
-        <h3 class="contact-item-heading">Номер телефона</h3>
-        <a class="contact-item-link" href="tel:+998 88 522-54-76">+998 88 522-54-76</a>
-      </li>
-      <hr class="line">
-      <li class="contact-item">
-        <h3 class="contact-item-heading">Адрес</h3>
-        <a class="contact-item-link" href="https://www.google.com/maps/place/6+Must%D0%B0qillik+m%D0%B0yd%D0%BEni,+Tashkent+100078,+O%60zbekiston/@41.3145639,69.2633081,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8b3d4801cfa7:0xa47963500c773c82!8m2!3d41.3145639!4d69.2654968">Ташкент, площадь Мустакиллик, 6 </a>
-      </li>
-    </ul>
-  </div>
-  <div class="contact-main-link-box">
-    <a class="contact-main-link" href="#">Отправить</a>
+      </div>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <h3 class="contact-item-heading">Электронная почта</h3>
+          <a class="contact-item-link" href="info@namanganliklar24.uz">info@namanganliklar24.uz</a>
+        </li>
+        <hr class="line">
+        <li class="contact-item">
+          <h3 class="contact-item-heading">Номер телефона</h3>
+          <a class="contact-item-link" href="tel:+998 88 522-54-76">+998 88 522-54-76</a>
+        </li>
+        <hr class="line">
+        <li class="contact-item">
+          <h3 class="contact-item-heading">Адрес</h3>
+          <a class="contact-item-link" href="https://www.google.com/maps/place/6+Must%D0%B0qillik+m%D0%B0yd%D0%BEni,+Tashkent+100078,+O%60zbekiston/@41.3145639,69.2633081,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8b3d4801cfa7:0xa47963500c773c82!8m2!3d41.3145639!4d69.2654968">Ташкент, площадь Мустакиллик, 6 </a>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <!-- Footer of the site -->
