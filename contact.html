@@ -63,13 +63,14 @@
     <h1 class="contact-heading">Напишите нам</h1>
     <div class="contact-content">
       <div class="form-wrapper">
-        <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+        <form action="https://echo.htmlacademy.ru" method="POST" class="contact-form">
             <div class="contact-info">
-                <input class="contact-input" type="text" id="name" name="name" placeholder="Имя" aria-label="Имя" required>
-                <input class="contact-input" type="tel" id="phone-number" name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                <input class="contact-input" type="text" id="name" name="name" pattern="[a-z]{4,8}" placeholder="Имя" aria-label="Имя" required>
+                <input class="contact-input" type="tel" id="phone-number" name="phone-number"
+                pattern="[0-9]{3}" placeholder="Номер телефона" aria-label="Номер телефона" required>
             </div>
             <input class="contact-input" type="email" id="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
-            <textarea class="contact-input text-area" name="text" id="text" placeholder="Текст" aria-label="Текст" required></textarea>
+            <textarea class="contact-input text-area" name="text" id="text" pattern="[a-z]{1,30}(,[a-z]{1,30})*" placeholder="Текст" aria-label="Текст" required></textarea>
         </form>
         <div class="contact-main-link-box">
           <button class="contact-main-link" type="submit">Отправить</button>
