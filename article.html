@@ -10,9 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- styles  -->
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
-  <link rel="stylesheet" href="./css/styles.min.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="./css/styles.min.css"> -->
 </head>
 <body>
     <!-- site header -->
@@ -55,6 +55,7 @@
       </ul>
     </navbar>
   </div>
+  </header>
 <!-- MAIN SECTION -->
 <main>
       <!-- Article part of the site -->
@@ -125,7 +126,7 @@
             <a class="card-heading" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в <br> России</a>
             <p class="card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
             <div class="source-world-news">
-              <img src="img/tarantas news.jpg" alt="tarantas logo" width="20" height="20">
+              <img src="img/tarantas news.jpg" alt="tarantaslogo" width="20" height="20">
               <p>Тарантас Ньюс 10:44</p>
             </div>
           </li>
@@ -183,22 +184,41 @@
         </li>
         <li class="social-networks-link">
           <a href="https://www.instagram.com/namanganliklar24.uz/" target="_blank">
-            <img src="./img/free-icon-instagram-2111463 1.svg" alt="icon-instagram" width="25" height="25">
+            <img src="./img/instagram.svg" alt="icon-instagram" width="25" height="25">
           </a>
         </li>
         <li class="social-networks-link">
           <a href="https://t.me/NAMANGANLIKLAR" target="_blank">
-            <img src="./img/free-icon-telegram-2111646 1.svg" alt="icon-telegram" width="25" height="25">
+            <img src="./img/telegram.svg" alt="icon-telegram" width="25" height="25">
           </a>
         </li>
         <li class="social-networks-link">
           <a href="http://youtube.com/namanganliklar24" target="_blank">
-            <img src="./img/free-icon-youtube-1384060 1.svg" alt="icon-youtube" width="25" height="25">
+            <img src="./img/youtube.svg" alt="icon-youtube" width="25" height="25">
           </a>
         </li>
       </ul>
     </div>
   </div>
 </footer>
+
+<!-- Modals -->
+<section class="modal" id="modal-action">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <h2 class="visually-hidden">Notifications</h2>
+      <button class="exit-btn" type="button">
+        <img class="exit-icon" src="./img/exit.svg" alt="" width="13" height="13">
+      </button>
+      <h3 class="modal-heading">Хотите быть в курсе свежих новостей?  Включите уведомления!
+      </h3>
+      <div class="turn-on-btn">
+        <button class="notification-link " type="button">Включит</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="./js/main.js"></script>
 </body>
 </html>

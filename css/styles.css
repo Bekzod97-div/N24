@@ -797,7 +797,6 @@ input[type="email"] {
 
 /* Modal page styles */
 .modal {
-  display: none;
   position: fixed;
   left: 0;
   top: 0;
@@ -808,8 +807,8 @@ input[type="email"] {
   overflow: auto;
 }
 
-.modal-act {
-  display: block;
+.js-modal {
+  display: none;
 }
 
 .modal-dialog {

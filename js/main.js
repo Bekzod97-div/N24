@@ -1,11 +1,12 @@
-const eladdModal = document.querySelector('#turn-on-modal');
-const elmodal = document.querySelector('#modal-action');
-const elTurnOn = document.querySelector('#turn-on')
+const elModal = document.querySelector('#modal-action');
+const elTurnOn = document.querySelector('.exit-btn')
 
-eladdModal.addEventListener('click', function() {
-elmodal.classList.add('modal-act');
-});
+if (elTurnOn) {
+    elTurnOn.addEventListener('click', function() {
+        elModal.classList.add('js-modal');
+        });
+};
 
-elTurnOn.addEventListener('click', function() {
-    elmodal.classList.remove('modal-act');
-    });
+setTimeout(function () {
+    elModal.classList.add('modal');
+}, 30000);
